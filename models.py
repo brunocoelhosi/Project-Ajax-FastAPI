@@ -26,7 +26,7 @@ class Pessoa(Base):
 
 class Tokens(Base):
     __tablename__ = 'Tokens'
-    id = Column(Integer, primary_key = True)
+    id = Column(Integer, primary_key = True)    
     id_Pessoa = Column(String(50),ForeignKey('Pessoa.id'))
     token = Column(String(100))
     data = Column(DateTime,default=datetime.now(timezone.utc))
