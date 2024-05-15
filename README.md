@@ -8,7 +8,7 @@ uvicorn main:app --reload
 
 Run Front-End
 
-FastAPI3/FastAPI3Front
+cd FastAPI3Front
 
 pip install waitress
 
